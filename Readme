@@ -1,0 +1,27 @@
+**************   CHAT APPLICATION   ****************
+
+
+This is a simple Chatting Application.
+
+***** Done this before. ******
+1. Create a directory any name (E.g. - Chat Application).
+2. Inside that directory create another directory of any name (E.g. - nodeServer) for installation of Node.
+3. After installing Node there is a file called "index.js" in js directory. Copy that file in the directory where you install Node.
+4. Now simply follow the steps below.
+
+------  How to use it ------
+1. Clone the project in your PC.
+2. Open the "Chat Application" directory.
+3. The dierectory where you install Node you have to initialize that directory by typing command ---> 'node init'.
+4. After initializing just run the command ---> 'nodemon index.js'.    (Put 'index.js' file into node directory)
+5. Now come before the current directory and run the "index.html" file on localhost (Use Live Server extension, if you are using VS Code)
+6. That's it.
+ 
+
+***** Require *****
+1. May be you have to initialize the directory by typing command ---> 'node init'. So first initialize the directory then run the command.
+
+
+ **********  Open a new tab or tabs in browser and simply copy paste the link of Chat Application  **********
+ 
+ **Enjoy**
