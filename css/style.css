@@ -23,7 +23,7 @@ body {
 header h1 {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 1em;
+  margin-top: .3em;
   background: -webkit-linear-gradient(60deg, #E21143, #FFB03A);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -33,7 +33,7 @@ header h1 {
   width: 95%;
   max-width: 700px;
   height: 70vh;
-  margin-top: 2em;
+  margin-top: .5em;
   background: #302646;
   border-radius: 10px;
   border: .5px solid white;
@@ -73,6 +73,7 @@ form {
   display: flex;
   justify-content: center;
   max-width: 700px;
+  height: 6vh;
   margin-left: 1em;
   margin-right: 1em;
 }
@@ -88,6 +89,7 @@ form button {
   width: 15%;
   border-radius: 20px;
   font-size: 1.5rem;
+  margin-left: 15px;
   border: none;
   background: #8500ff;
   color: #fff;
