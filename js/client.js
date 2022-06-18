@@ -1,4 +1,4 @@
-const socket = io('http://localhost:8000');
+const socket = io('http://localhost:' + process.env.PORT || 5000);
 const form = document.getElementById('send-container');
 const messageInput = document.getElementById('messageInp');
 const messageContainer = document.querySelector('.container');
@@ -16,13 +16,13 @@ const append = (message, position) => {
 const Name = prompt('Enter your Name');
 socket.emit('new-user-joined', Name);
 socket.on('user-joined', (Name) => {
-    append(`${Name} joined the Chat`,'right');
+  append(`${Name} joined the Chat`, 'right');
 });
 socket.on('receive', (data) => {
-    append(`${data.Name}: ${data.message}`, 'left');
+  append(`${data.Name}: ${data.message}`, 'left');
 });
 socket.on('left', (Name) => {
-    append(`${Name} left Chat`, 'right');
+  append(`${Name} left Chat`, 'right');
 });
 form.addEventListener('submit', (e) => {
   e.preventDefault();
